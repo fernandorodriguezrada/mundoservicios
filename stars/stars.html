@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
+    <title>Star Rating in HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="/stars/main.css" />
+    <link rel="stylesheet" href="/stars/stars.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="/firebase/firebase.js"></script>
+    <script src="/stars/star-rating.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-logo">
+        <a href="http://127.0.0.1:5500/">
+          <img src="/assets/imgs/mundoservicios-black.png" alt="logo" />
+        </a>
+      </div>
+    </nav>
+    <form>
+      <div class="rating-box">
+        <header>¡Puntúanos!</header>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </form>
+    <button type="submit">Calificar</button>
+
+    <div class="footer">
+      <div class="copyright">
+        Copyright © 2023 MundoServicios. Todos los derechos reservados.
+      </div>
+    </div>
+  </body>
+</html>

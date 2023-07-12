@@ -1,0 +1,23 @@
+.footer {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  align-items: center;
+  background: #242424;
+  padding: 20px;
+  color: white;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -50%;
+  margin: 20px;
+}
+
+@media (min-width: 1043px) {
+  .footer-contact {
+    display: flex;
+  }
+}

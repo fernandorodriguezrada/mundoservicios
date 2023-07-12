@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../src/register/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/assets/imgs/favicon-32x32.png" />
+
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-logo">
+        <a href="http://127.0.0.1:5500/">
+          <img src="/assets/imgs/mundoservicios-black.png" alt="logo" />
+        </a>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="register-section">
+        <div class="register-title">Registrarse</div>
+        <div class="register-container">
+          <input class="name" placeholder="Nombre y apellidos" />
+          <input class="username" placeholder="Usuario" />
+          <input class="mail" placeholder="E-mail" />
+          <input class="password" type="password" placeholder="Contraseña" />
+          <input
+            class="password"
+            type="password"
+            placeholder="Confirmar contraseña"
+          />
+          <button class="acceder">Acceder</button>
+          <div class="already">
+            <a href="/login/login.html">Ya tengo una cuenta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="copyright">
+        Copyright © 2023 MundoServicios. Todos los derechos reservados.
+      </div>
+    </div>
+    <script type="module" src="../firebase/firebase.config.js"></script>
+    <script type="module" src="../firebase/firebaseauth.js"></script>
+    <script type="module" src="../firebase/firestore.js"></script>
+  </body>
+</html>
