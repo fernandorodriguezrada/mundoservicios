@@ -1,9 +1,9 @@
-@import "css/navbar.css";
-@import "css/cars-showcase.css";
-@import "css/features.css";
-@import "css/stars.css";
-@import "css/footer.css";
-@import "css/slideshow.css";
+@import url("css/navbar.css");
+@import url("css/cars-showcase.css");
+@import url("css/features.css");
+@import url("css/stars.css");
+@import url("css/footer.css");
+@import url("css/slideshow.css");
 
 html {
   scroll-behavior: smooth;
