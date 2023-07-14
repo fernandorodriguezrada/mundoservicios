@@ -90,7 +90,7 @@ input {
 }
 
 .mail::placeholder {
-  background-image: url("assets/imgs/sobre.png");
+  background-image: url("/assets/imgs/cerrar.png");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
