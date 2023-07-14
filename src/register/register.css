@@ -102,7 +102,7 @@ input {
   background-image: none;
 }
 .password::placeholder {
-  background-image: url("/assets/imgs/cerrar.png");
+  background-image: url("mundoservicios/assets/imgs/cerrar.png");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
