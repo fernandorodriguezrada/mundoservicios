@@ -125,7 +125,7 @@ body {
     width: 100%;
   }
   .brand-logo img {
-    content: url("assets/imgs/logo-black.png");
+    content: url("https://github.com/fernandorodriguezrada/mundoservicios/blob/developer/assets/imgs/logo-black.png?raw=true");
   }
 
   .navbar {
