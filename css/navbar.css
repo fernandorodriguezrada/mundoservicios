@@ -125,7 +125,7 @@ body {
     width: 100%;
   }
   .brand-logo img {
-    content: url("../assets/imgs/logo-black.webp");
+    content: url("/assets/imgs/logo-black.webp");
   }
 
   .navbar {
