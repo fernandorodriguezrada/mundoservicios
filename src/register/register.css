@@ -65,7 +65,7 @@ input {
 }
 
 .name::placeholder {
-  background-image: url("https://github.com/fernandorodriguezrada/mundoservicios/blob/developer/assets/imgs/username.png?raw=true");
+  background-image: url("/assets/imgs/username.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
@@ -77,7 +77,7 @@ input {
   background-image: none;
 }
 .username::placeholder {
-  background-image: url("https://github.com/fernandorodriguezrada/mundoservicios/blob/developer/assets/imgs/username.png?raw=true");
+  background-image: url("/assets/imgs/username.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
@@ -90,7 +90,7 @@ input {
 }
 
 .mail::placeholder {
-  background-image: url("https://github.com/fernandorodriguezrada/mundoservicios/blob/developer/assets/imgs/sobre.png?raw=true");
+  background-image: url("/assets/imgs/sobre.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
@@ -102,7 +102,7 @@ input {
   background-image: none;
 }
 .password::placeholder {
-  background-image: url("https://github.com/fernandorodriguezrada/mundoservicios/blob/developer/assets/imgs/cerrar.png?raw=true");
+  background-image: url("/assets/imgs/cerrar.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
