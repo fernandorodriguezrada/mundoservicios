@@ -64,7 +64,7 @@ input {
 }
 
 .username::placeholder {
-  background-image: url("/assets/imgs/username.webp");
+  background-image: url("../assets/imgs/username.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
@@ -77,7 +77,7 @@ input {
 }
 
 .password::placeholder {
-  background-image: url("/assets/imgs/cerrar.webp");
+  background-image: url("../assets/imgs/cerrar.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
