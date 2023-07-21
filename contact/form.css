@@ -86,7 +86,7 @@ button:hover {
 }
 
 .name::placeholder {
-  background-image: url("../assets/imgs/username.png");
+  background-image: url("../assets/imgs/username.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
@@ -99,7 +99,7 @@ button:hover {
 }
 
 .mail::placeholder {
-  background-image: url("../assets/imgs/sobre.png");
+  background-image: url("../assets/imgs/sobre.webp");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 10px;
