@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: stretch;
   height: 400px;
-
+  margin-bottom: 0;
 }
 
 .form-section {
@@ -37,7 +37,7 @@ input {
   font-size: 16px;
   background: white;
   height: 40px;
-  width: 300px;
+  width: 380px;
   border-radius: 30px;
   padding: 10px;
   border: none;
@@ -51,7 +51,7 @@ input {
   font-size: 16px;
   background: white;
   height: 100px;
-  width: 500px;
+  width: 400px;
   border-radius: 30px;
   padding: 14px;
   border: none;
@@ -59,14 +59,13 @@ input {
   border-width: 2px;
   vertical-align: top;
   font-family: "Montserrat", sans-serif;
-  transition: width 0.5s ease-in-out;
 }
 
 button {
   background: #ffffff;
   color: #242424;
   height: 40px;
-  width: 320px;
+  width: 390px;
   border-radius: 30px;
   outline-color: #36363685;
   border: none;
@@ -76,6 +75,7 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.1s ease-out;
+  margin-top: 0;
 }
 
 button:hover {
@@ -118,5 +118,20 @@ button:hover {
 @media (max-width: 1043px) {
   .message textarea {
     width:330px;
+  }
+button {
+  width: 320px;
+  margin: 0;
+}
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+input {
+  width: 320px;
+}
+  .form-section {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
