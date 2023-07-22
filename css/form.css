@@ -1,9 +1,12 @@
 .wrapper {
   display: flex;
+  padding: 20px;
   margin-top: 60px;
+  margin-bottom: 60px;
   justify-content: center;
   align-items: stretch;
-  height: auto;
+  height: 400px;
+
 }
 
 .form-section {
@@ -18,7 +21,7 @@
   justify-content: center;
   margin-top: auto;
   margin-bottom: 30px;
-  color: #242424;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -33,7 +36,7 @@
 input {
   font-size: 16px;
   background: white;
-  height: 30px;
+  height: 40px;
   width: 300px;
   border-radius: 30px;
   padding: 10px;
@@ -47,10 +50,10 @@ input {
 .message textarea {
   font-size: 16px;
   background: white;
-  height: 200px;
+  height: 100px;
   width: 500px;
   border-radius: 30px;
-  padding: 20px;
+  padding: 14px;
   border: none;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
   border-width: 2px;
@@ -60,8 +63,8 @@ input {
 }
 
 button {
-  background: #242424;
-  color: white;
+  background: #ffffff;
+  color: #242424;
   height: 40px;
   width: 320px;
   border-radius: 30px;
@@ -72,11 +75,11 @@ button {
   font-size: 15px;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: 0.3s ease-out;
+  transition: 0.1s ease-out;
 }
 
 button:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(207, 207, 207);
   box-shadow: 0px 0px 10px #242424;
   transform: scale(1.02);
 }
@@ -111,22 +114,9 @@ button:hover {
   background-image: none;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  text-align: center;
-}
-
-.footer p {
-  margin: 0;
-}
 
 @media (max-width: 1043px) {
   .message textarea {
-    width: 300px;
+    width:330px;
   }
 }

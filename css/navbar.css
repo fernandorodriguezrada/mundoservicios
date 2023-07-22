@@ -115,6 +115,10 @@ body {
 .register-li {
   display: none;
 }
+
+.exit-li {
+  display: none;
+}
 @media (max-width: 1043px) {
   .toggle-button {
     display: flex;
@@ -181,5 +185,22 @@ body {
 
   .register-li {
     display: flex;
+  }
+
+  .exit-li {
+    display: flex;
+  }
+
+  .exit-li img:hover {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .exit-li img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
   }
 }

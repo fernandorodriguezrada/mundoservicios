@@ -1,6 +1,7 @@
 .footer {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   background: #242424;

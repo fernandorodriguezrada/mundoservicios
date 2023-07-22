@@ -14,10 +14,10 @@ scrollToTopBtn.addEventListener("click", function () {
   window.scrollTo(0, 0);
 });
 
-var reviewsLink = document.querySelector('a[href="/stars/stars.html"]');
-
-reviewsLink.addEventListener("click", function (event) {
-  event.preventDefault();
-  var ratingBox = document.querySelector(".rating-box");
-  ratingBox.scrollIntoView({ behavior: "smooth" });
-});
+const formContainer = document.querySelector(".form-container");
+const scrollToFormContainer = () => {
+  formContainer.scrollIntoView({ behavior: "smooth" });
+};
+document
+  .querySelector(".contact-now")
+  .addEventListener("click", scrollToFormContainer);

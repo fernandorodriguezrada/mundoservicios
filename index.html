@@ -23,19 +23,25 @@
     <script src="js/scroll-script.js" defer></script>
     <script src="js/stars-index.js" defer></script>
     <script src="js/slideshow.js" defer></script>
-    <title>Mundo Servicios</title>
+    <script src="js/capitalize.js" defer></script>
   </head>
   <body>
+    <title>Mundo Servicios | Inicio</title>
     <nav class="navbar">
       <div class="navbar-links">
         <ul>
           <li><a href="contact/contact.html">Contáctanos</a></li>
-          <li><a href="#">Reseñas</a></li>
+          <li><a href="#">Dónde estamos</a></li>
           <li class="register-li">
             <a href="login/login.html">Iniciar sesión</a>
           </li>
           <li class="register-li">
             <a href="src/register/register.html">Registrarse</a>
+          </li>
+          <li class="exit-li">
+            <a href="">
+              <img src="assets/imgs/cruz.webp" alt="exit" />
+            </a>
           </li>
         </ul>
       </div>
@@ -76,12 +82,7 @@
         Hacemos <br />
         el transporte <span>facil</span>
       </div>
-      <button
-        class="contact-now"
-        onclick="window.location.href='contact/contact.html'"
-      >
-        Contáctanos
-      </button>
+      <button class="contact-now">Contáctanos</button>
       <div class="we-are">
         Somos una empresa de traslado de cargas livianas, medianas y pesadas.
         Nos enorgullecemos de nuestra capacidad para manejar toda necesidad de
@@ -161,23 +162,44 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <form>
-      <div class="rating-box">
-        <header>¡Puntúanos!</header>
-        <div class="stars">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-        </div>
-        <button type="submit">Calificar</button>
-      </div>
-    </form>
     <button class="scroll-top" id="scroll-to-top-btn">
       <img src="assets/imgs/angulo-hacia-abajo.webp" alt="Scroll to Top" />
     </button>
+
     <div class="footer">
+      <div class="form-container">
+        <div class="wrapper">
+          <div class="form-section">
+            <div class="form-title">Enviar correo</div>
+            <form action="https://formspree.io/f/xyyqgdqw" method="POST">
+              <div class="form-container">
+                <input
+                  type="text"
+                  name="Nombre"
+                  class="name"
+                  placeholder="Nombre y apellidos"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Correo"
+                  class="mail"
+                  placeholder="E-mail"
+                  required
+                />
+                <div class="message">
+                  <textarea
+                    name="Mensaje"
+                    placeholder="Mensaje"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
       <div class="footer-contact">
         <div class="icon-github">
           <a href="https://github.com/fernandorodriguezrada" target="_blank">
