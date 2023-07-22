@@ -12,7 +12,7 @@ toggleButton.addEventListener("click", () => {
 });
 
 exitLink.addEventListener("click", (event) => {
-  event.preventDefault(); // prevent the default behavior of the link
+  event.preventDefault();
   navbarLinks.classList.remove("active");
   document.body.style.overflow = "auto";
 });
