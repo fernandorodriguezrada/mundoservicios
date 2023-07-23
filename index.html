@@ -127,13 +127,13 @@
         </div>
       </div>
     </div>
-    <div class="slideshow-container">
+    <div class="slideshow-container" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd(event)">
       <div class="mySlides fade">
         <div class="numbertext">Pick-Up</div>
         <img src="assets/imgs/truck-2.webp" style="width: 340px" />
         <div class="text">Caption Text</div>
       </div>
-
+    
       <div
         class="mySlides fade"
         style="display: flex; justify-content: center; align-items: center"
@@ -142,13 +142,13 @@
         <img src="assets/imgs/furgoneta-2.webp" style="width: 340px" />
         <div class="text">Caption Two</div>
       </div>
-
+    
       <div class="mySlides fade">
         <div class="numbertext">Remolque</div>
         <img src="assets/imgs/remolque-2.webp" style="width: 340px" />
         <div class="text">Caption Three</div>
       </div>
-
+    
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
       <div style="text-align: center">
