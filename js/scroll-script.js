@@ -21,3 +21,22 @@ const scrollToFormContainer = () => {
 document
   .querySelector(".contact-now")
   .addEventListener("click", scrollToFormContainer);
+
+  let touchStartX = 0;
+let touchEndX = 0;
+
+function touchStart(event) {
+  touchStartX = event.touches[0].clientX;
+}
+
+function touchMove(event) {
+  touchEndX = event.touches[0].clientX;
+}
+
+function touchEnd(event) {
+  if (touchStartX - touchEndX > 50) {
+    plusSlides(1); // swipe left
+  } else if (touchEndX - touchStartX > 50) {
+    plusSlides(-1); // swipe right
+  }
+}
