@@ -114,22 +114,21 @@ button:hover {
   background-image: none;
 }
 
-
 @media (max-width: 1043px) {
   .message textarea {
-    width:330px;
+    width: 330px;
   }
-button {
-  width: 320px;
-  margin: 0;
-}
+  button {
+    width: 320px;
+    margin: 0;
+  }
   .wrapper {
     padding-left: 0;
     padding-right: 0;
   }
-input {
-  width: 320px;
-}
+  input {
+    width: 320px;
+  }
   .form-section {
     padding-right: 0;
     padding-left: 0;

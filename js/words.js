@@ -28,4 +28,3 @@ function changeWord() {
 changeWord();
 
 setInterval(changeWord, 5000);
-

@@ -22,7 +22,7 @@ document
   .querySelector(".contact-now")
   .addEventListener("click", scrollToFormContainer);
 
-  let touchStartX = 0;
+let touchStartX = 0;
 let touchEndX = 0;
 
 function touchStart(event) {
@@ -35,8 +35,8 @@ function touchMove(event) {
 
 function touchEnd(event) {
   if (touchStartX - touchEndX > 50) {
-    plusSlides(1); // swipe left
+    plusSlides(1);
   } else if (touchEndX - touchStartX > 50) {
-    plusSlides(-1); // swipe right
+    plusSlides(-1);
   }
 }
