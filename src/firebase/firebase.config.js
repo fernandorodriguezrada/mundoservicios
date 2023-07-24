@@ -1,19 +1,19 @@
-import {
-  initializeApp
-}
-from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+ // Import the functions you need from the SDKs you need
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+ // TODO: Add SDKs for Firebase products that you want to use
+ // https://firebase.google.com/docs/web/setup#available-libraries
 
-const firebaseConfig = {
-  apiKey: "AIzaSyD-hTAcLWrKSQbjdS-_9JbAywHzhdRer9k",
-  authDomain: "mundo-servicios.firebaseapp.com",
-  databaseURL: "https://mundo-servicios-default-rtdb.firebaseio.com",
-  projectId: "mundo-servicios",
-  storageBucket: "mundo-servicios.appspot.com",
-  messagingSenderId: "580184560497",
-  appId: "1:580184560497:web:c83cda09a0d7f15f6f5cd0",
-  measurementId: "G-M538SMJQRV"
-};
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+   apiKey: "AIzaSyANBfvlA5QHDa2tkS5uI6HryfUWs6S8glY",
+   authDomain: "mundo-servicios-webpage.firebaseapp.com",
+   projectId: "mundo-servicios-webpage",
+   storageBucket: "mundo-servicios-webpage.appspot.com",
+   messagingSenderId: "881478598118",
+   appId: "1:881478598118:web:023c67429f553a15d42a27"
+ };
 
-const app = initializeApp(firebaseConfig);
+ // Initialize Firebase
+ const app = initializeApp(firebaseConfig);
 
 export default app;
