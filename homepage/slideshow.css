@@ -54,25 +54,25 @@
   background-color: #242424e8;
 }
 
-.text {
-  color: #242424;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 8px 12px;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 .numbertext {
   color: #242424;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.text {
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 .dot {

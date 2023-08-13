@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../history/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../js/displayable-card.js" defer></script>
+    <script src="../src/firebase/firebase.config.js"></script>
+    <link rel="icon" href="../assets/imgs/favicon-32x32.webp" />
+    <title>Mundo Servicios | Historial</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-logo">
+        <a href="../homepage/index.html">
+          <img src="../assets/imgs/mundoservicios-black.webp" alt="logo" />
+        </a>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="history-title">Historial de Solicitudes</div>
+      <div class="history-container">
+        <div class="card">
+          <span class="card-span">
+            Vidrios para Guatire<br />
+            <span style="font-size: 12px; color: #777777">hace un dia</span>
+          </span>
+          <div class="expand">
+            <div class="rotate-container">
+              <img
+                src="../assets/imgs/angulo-hacia-abajo.webp"
+                class="rotate-image"
+              />
+            </div>
+          </div>
+          <div class="history-info">
+            Estado:
+            <span style="color: #a79600"> En camino.</span><br />
+            Precio:
+            <span style="color: #777777"> 450$.</span><br />
+            Destino:
+            <span style="color: #777777"> CC Buenaventura,<br />Guatire, 1221 Miranda.</span>
+            <br />
+            Conductor:
+            <span style="color: #777777"> Romer Rodriguez.</span>
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+        </div>
+        <div class="card">
+          <span class="card-span">
+            Cargamento de Bombonas<br />
+            <span style="font-size: 12px; color: rgb(119, 119, 119)"
+              >hace una semana</span
+            >
+          </span>
+          <div class="expand">
+            <div class="rotate-container">
+              <img
+                src="../assets/imgs/angulo-hacia-abajo.webp"
+                class="rotate-image"
+              />
+            </div>
+          </div>
+          <div class="history-info">
+            Estado:
+            <span style="color: #1c7700"> Entregado.</span><br />
+            Precio:
+            <span style="color: #777777"> 660$.</span><br />
+            Destino:
+            <span style="color: #777777"> Carretera Nacional <br />Guarenas, Guatire 1221, Miranda.</span>
+            <br />
+            Conductor:
+            <span style="color: #777777"> Alberto Salazar.</span>
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+        </div>
+        <div class="card">
+          <span class="card-span"
+            >Mudanza<br />
+            <span style="font-size: 12px; color: rgb(119, 119, 119)"
+              >hace tres semanas</span
+            >
+          </span>
+          <div class="expand">
+            <div class="rotate-container">
+              <img
+                src="../assets/imgs/angulo-hacia-abajo.webp"
+                class="rotate-image"
+              />
+            </div>
+          </div>
+          <div class="history-info">
+            Estado:
+            <span style="color: #1c7700"> Entregado.</span><br />
+            Precio:
+            <span style="color: #777777"> 340$ (Local).</span><br />
+            Destino:
+            <span style="color: #777777"> Urb. Club de Campo,<br />Guatire 1221, Miranda.</span>
+            <br />
+            Conductor:
+            <span style="color: #777777"> Alberto Salazar.</span>
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+        </div>
+        <div class="card">
+          <span class="card-span"
+            >Vehiculo accidentado<br />
+            <span style="font-size: 12px; color: rgb(119, 119, 119)"
+              >hace un mes</span
+            >
+          </span>
+          <div class="expand">
+            <div class="rotate-container">
+              <img
+                src="../assets/imgs/angulo-hacia-abajo.webp"
+                class="rotate-image"
+              />
+            </div>
+          </div>
+          <div class="history-info">
+            Estado:
+            <span style="color: #1c7700"> Entregado.</span><br />
+            Precio:
+            <span style="color: #777777"> 100$.</span><br />
+            Destino:
+            <span style="color: #777777"> Av. Intercomunal de El<br />Valle, Caracas 1090, Distrito Capital.</span>
+            <br />
+            Conductor:
+            <span style="color: #777777"> Manute Contreras.</span>
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+        </div>
+        <div class="card">
+          <span class="card-span"
+            >Personal al Aeropuerto<br />
+            <span style="font-size: 12px; color: rgb(119, 119, 119)"
+              >hace tres meses</span
+            >
+          </span>
+          <div class="expand">
+            <div class="rotate-container">
+              <img
+                src="../assets/imgs/angulo-hacia-abajo.webp"
+                class="rotate-image"
+              />
+            </div>
+          </div>
+          <div class="history-info">
+            Estado:
+            <span style="color: #1c7700"> Entregado.</span><br />
+            Precio:
+            <span style="color: #777777"> 70$.</span><br />
+            Destino:
+            <span style="color: #777777"> Aeropuerto Óscar Machado <br />Zuloaga, Charallave 1210, Miranda.</span>
+            <br />
+            Conductor:
+            <span style="color: #777777"> Romer Rodriguez.</span>
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+          <div class="basura">
+            <div class="bar"></div>
+            <img src="/assets/imgs/basura.webp" />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

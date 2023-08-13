@@ -1,0 +1,19 @@
+@import "cards.css";
+@import "header.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background: rgb(245, 245, 245);
+  background: linear-gradient(
+    170deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(172, 172, 172, 1) 64%
+  );
+}
