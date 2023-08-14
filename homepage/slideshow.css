@@ -79,8 +79,12 @@
   text-align: center;
 }
 
-img {
-  width: 60%;
+.available-cars {
+  display: flex;
+  justify-content: center;
+}
+.available-cars img {
+  width: 70%;
   max-width: 340px;
   @media (min-width: 700px) {
     width: 340px;
@@ -144,4 +148,3 @@ img {
    width: 70%;
  }
 }
-
