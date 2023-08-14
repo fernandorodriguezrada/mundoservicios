@@ -56,25 +56,44 @@
 
 .numbertext {
   color: #242424;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: "Staatliches";
+  font-size: 35px;
 }
 
 .text {
-  color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  color: #ffffff;
+  background-color: #242424;
+  border-radius: 20px;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   font-size: 20px;
-  padding: 8px 12px;
+  padding: 15px;
   bottom: 8px;
-  width: 100%;
+  margin-bottom: 15px;
+  width: 400px;
   text-align: center;
 }
 
+img {
+  width: 60%;
+  max-width: 340px;
+  @media (min-width: 700px) {
+    width: 340px;
+  }
+}
+
+.text-span {
+  font-size: 30px;
+}
+
+.text p {
+  display: none;
+}
 .dot {
   cursor: pointer;
   height: 10px;
@@ -119,3 +138,10 @@
     border-radius: 0 30px 30px 0;
   }
 }
+
+@media (max-width: 650px) {
+  .text {
+   width: 70%;
+ }
+}
+

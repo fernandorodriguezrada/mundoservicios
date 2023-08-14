@@ -15,6 +15,19 @@
   align-items: center;
   width: -50%;
   margin: 20px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.footer-info {
+  display: flex;
+  color: #777777;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.copyright {
+  color: #777777;
 }
 
 @media (min-width: 1043px) {
