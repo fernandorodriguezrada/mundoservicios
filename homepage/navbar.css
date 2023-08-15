@@ -189,6 +189,7 @@ body {
 
   .exit-li {
     display: flex;
+    margin-top: 20px;
   }
 
   .exit-li img:hover {
