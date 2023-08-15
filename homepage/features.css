@@ -14,7 +14,7 @@
   padding-bottom: 0px;
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 .icon img {
@@ -88,7 +88,9 @@
   }
 
   .features-title {
-    font-size: 18px;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
   }
 }
