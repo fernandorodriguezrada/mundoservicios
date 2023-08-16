@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../places/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="icon" href="../assets/imgs/favicon-32x32.webp" />
+    <script type="module" src="../src/firebase/firebase.config.js"></script>
+    <script type="module" src="../src/firebase/firebaseauth.js"></script>
+    <script type="module" src="../src/firebase/firestore.js"></script>
+    <script src="../js/nav-script.js" defer></script>
+    <script src="../js/scroll-script.js" defer></script>
+  </head>
+  <title>Mundo Servicios | Dónde estamos</title>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-links">
+        <ul>
+          <li><a href="../history/history.html">Historial</a></li>
+          <li><a href="../places/places.html">Dónde estamos</a></li>
+          <li class="register-li">
+            <a href="../login/login.html">Iniciar sesión</a>
+          </li>
+          <li class="register-li">
+            <a href="../src/register/register.html">Registrarse</a>
+          </li>
+          <li class="exit-li">
+            <a href="">
+              <img src="../assets/imgs/cruz.webp" alt="exit" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="brand-logo">
+        <a href="#">
+          <img src="../assets/imgs/mundoservicios-black.webp" alt="logo" />
+        </a>
+      </div>
+      <a href="#" class="toggle-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="../login/login.html">Iniciar sesión</a></li>
+          <li><a href="../src/register/register.html">Registrarse</a></li>
+          <div>
+            <a href="#"
+              ><img src="../assets/imgs/usuario.webp" alt="user-logo"
+            /></a>
+          </div>
+          <div class="log-out">
+            <a href="#"
+              ><img src="../assets/imgs/salir-alt.webp" alt="log-out"
+            /></a>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <div class="map-title">
+      Dónde<br />estamos
+      <div class="image-title">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fe/d4/caracas.jpg?w=700&h=500&s=1"
+        />
+      </div>
+    </div>
+    <div class="map-explanation">
+      Elige un punto en el mapa para saber <br />mas informacion.
+    </div>
+    <div class="map-container">
+      <div class="map">
+        <img src="../assets/imgs/mapa.webp" />
+        <div class="pointer">
+          <img src="../assets/imgs/marcador.webp" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

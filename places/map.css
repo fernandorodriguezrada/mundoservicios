@@ -1,0 +1,61 @@
+.map-title {
+  display: flex;
+  justify-content: space-between; /* Add this line */
+  padding: 50px 20px 0px 20px;
+  font-size: 50px;
+  font-family: "Staatliches";
+  color: rgb(36, 36, 36);
+  align-items: space-between;
+}
+
+.image-title img {
+  background-color: #242424;
+  padding: 2px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.map-explanation {
+    padding: 20px 0px 0px 20px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  position: relative;
+}
+.map img {
+  width: 375px;
+  user-select: none;
+}
+
+.pointer img {
+  position: absolute;
+  width: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #ff9c1c;
+  box-shadow: 0 0 5px 2px #ff9c1c;
+  right: 170px;
+  top: 70px;
+  cursor: pointer;
+  z-index: 0;
+  object-fit: contain;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px 2px #ff9d1cda;
+  }
+  50% {
+    box-shadow: 0 0 12px 5px #ff9d1c;
+  }
+  100% {
+    box-shadow: 0 0 5px 2px #ff9d1c8c;
+  }
+}
