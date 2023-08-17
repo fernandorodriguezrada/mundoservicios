@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "map.css";
-@import "";
-@import "";
+@import "footer.css";
+@import "form.css";
 
 html {
   scroll-behavior: smooth;
