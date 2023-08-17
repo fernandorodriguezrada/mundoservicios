@@ -1,5 +1,6 @@
-@import "./login.css";
-@import "./header.css";
+@import "login.css";
+@import "header.css";
+@import "loader.css";
 
 html {
   scroll-behavior: smooth;

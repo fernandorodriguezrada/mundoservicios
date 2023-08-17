@@ -5,6 +5,7 @@
 @import "footer.css";
 @import "slideshow.css";
 @import "form.css";
+@import "loader.css";
 
 html {
   scroll-behavior: smooth;

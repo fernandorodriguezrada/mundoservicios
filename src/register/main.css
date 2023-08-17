@@ -1,5 +1,6 @@
 @import "../register/register.css";
 @import "../register/header.css";
+@import "../register/loader.css";
 
 html {
   scroll-behavior: smooth;

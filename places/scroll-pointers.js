@@ -15,9 +15,3 @@ pointerLaraDiv.addEventListener("mouseleave", function () {
 });
 
 pointerLaraDiv.addEventListener("click", scrollToInfo);
-
-window.onload = function() {
-    var loaderWrapper = document.querySelector('.loader-wrapper');
-    loaderWrapper.style.display = 'none';
-  };
-  

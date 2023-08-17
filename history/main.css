@@ -1,5 +1,6 @@
 @import "cards.css";
 @import "header.css";
+@import "loader.css";
 
 html {
   scroll-behavior: smooth;
