@@ -2,6 +2,8 @@
 @import "map.css";
 @import "footer.css";
 @import "form.css";
+@import "loader.css";
+
 
 html {
   scroll-behavior: smooth;
