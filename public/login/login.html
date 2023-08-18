@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../login/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../src/firebase/firebase.config.js"></script>
+    <script src="../js/loader.js" defer></script>
+    <link rel="icon" href="../assets/imgs/favicon-32x32.webp" />
+    <title>Mundo Servicios | Iniciar Sesión</title>
+  </head>
+  <body>
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+    <nav class="navbar">
+      <div class="brand-logo">
+        <a href="../homepage/index.html">
+          <img src="../assets/imgs/mundoservicios-black.webp" alt="logo" />
+        </a>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="login-section">
+        <div class="login-title">Iniciar Sesión</div>
+        <div class="login-container">
+          <input class="username" placeholder="Usuario" />
+          <input class="password" type="password" placeholder="Contraseña" />
+          <button class="acceder">Acceder</button>
+          <div class="forget">
+            <a href="#">Olvidé mi contraseña</a>
+            <a href="../register/register.html">Crear una cuenta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="copyright">
+        Copyright © 2023 MundoServicios. Todos los derechos reservados.
+      </div>
+    </div>
+  </body>
+</html>
