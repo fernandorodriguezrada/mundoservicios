@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="../js/displayable-card.js" defer></script>
+    <script src="../js/nav-script.js" defer></script>
     <script src="../js/loader.js" defer></script>
     <script src="../src/firebase/firebase.config.js"></script>
     <link rel="icon" href="../assets/imgs/favicon-32x32.webp" />
@@ -21,10 +22,48 @@
       <div class="loader"></div>
     </div>
     <nav class="navbar">
+      <div class="navbar-links">
+        <ul>
+          <li><a href="../history/history.html">Historial</a></li>
+          <li><a href="../places/places.html">Dónde estamos</a></li>
+          <li class="register-li">
+            <a href="../login/login.html">Iniciar sesión</a>
+          </li>
+          <li class="register-li">
+            <a href="../src/register/register.html">Registrarse</a>
+          </li>
+          <li class="exit-li">
+            <a href="">
+              <img src="../assets/imgs/cruz.webp" alt="exit" />
+            </a>
+          </li>
+        </ul>
+      </div>
       <div class="brand-logo">
-        <a href="../homepage/index.html">
+        <a href="#">
           <img src="../assets/imgs/mundoservicios-black.webp" alt="logo" />
         </a>
+      </div>
+      <a href="#" class="toggle-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="../login/login.html">Iniciar sesión</a></li>
+          <li><a href="../src/register/register.html">Registrarse</a></li>
+          <div>
+            <a href="#"
+              ><img src="../assets/imgs/usuario.webp" alt="user-logo"
+            /></a>
+          </div>
+          <div class="log-out">
+            <a href="#"
+              ><img src="../assets/imgs/salir-alt.webp" alt="log-out"
+            /></a>
+          </div>
+        </ul>
       </div>
     </nav>
     <div class="wrapper">

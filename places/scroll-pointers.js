@@ -1,17 +1,30 @@
-function scrollToInfo() {
-  const infoDiv = document.getElementById("info");
-  infoDiv.scrollIntoView({ behavior: "smooth" });
-}
+const pointerLara = document.querySelector(".pointer-lara");
+const pointerMiranda = document.querySelector(".pointer-miranda");
+const pointerCarabobo = document.querySelector(".pointer-carabobo");
+const pointerZulia = document.querySelector(".pointer-zulia");
+const pointerMonagas = document.querySelector(".pointer-monagas");
 
-const pointerLaraDiv = document.querySelector(".pointer-lara");
-const messageDiv = document.querySelector(".message");
-
-pointerLaraDiv.addEventListener("mouseenter", function () {
-  messageDiv.style.display = "block";
+pointerLara.addEventListener("click", () => {
+  const lineLara = document.getElementById("lara");
+  lineLara.scrollIntoView({ behavior: "smooth" });
 });
 
-pointerLaraDiv.addEventListener("mouseleave", function () {
-  messageDiv.style.display = "none";
+pointerMiranda.addEventListener("click", () => {
+  const lineMiranda = document.getElementById("miranda");
+  lineMiranda.scrollIntoView({ behavior: "smooth" });
 });
 
-pointerLaraDiv.addEventListener("click", scrollToInfo);
+pointerCarabobo.addEventListener("click", () => {
+  const lineCarabobo = document.getElementById("carabobo");
+  lineCarabobo.scrollIntoView({ behavior: "smooth" });
+});
+
+pointerZulia.addEventListener("click", () => {
+  const lineZulia = document.getElementById("zulia");
+  lineZulia.scrollIntoView({ behavior: "smooth" });
+});
+
+pointerMonagas.addEventListener("click", () => {
+  const lineMonagas = document.getElementById("monagas");
+  lineMonagas.scrollIntoView({ behavior: "smooth" });
+});

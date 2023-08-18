@@ -20,6 +20,7 @@
     <script type="module" src="../src/firebase/firestore.js"></script>
     <script type="module" src="../places/scroll-pointers.js"></script>
     <script src="../js/nav-script.js" defer></script>
+    <script src="../js/scroll-script.js" defer></script>
     <script src="../js/loader.js" defer></script>
   </head>
   <title>Mundo Servicios | Dónde estamos</title>
@@ -31,7 +32,7 @@
       <div class="navbar-links">
         <ul>
           <li><a href="../history/history.html">Historial</a></li>
-          <li><a href="../places/places.html">Dónde estamos</a></li>
+          <li><a href="#">Dónde estamos</a></li>
           <li class="register-li">
             <a href="../login/login.html">Iniciar sesión</a>
           </li>
@@ -78,12 +79,15 @@
         <img src="../assets/imgs/drawn-arrow.webp" />
       </div>
     </div>
+    <button class="contact-now">Contáctanos</button>
     <div class="map-explanation">
       Elige un punto en el mapa para saber <br />mas informacion.
     </div>
     <div class="map-container">
       <div class="map">
-        <img src="../assets/imgs/mapa.webp" />
+        <div class="map-image">
+          <img src="../assets/imgs/mapa.webp" />
+        </div> 
         <div class="pointer-lara">
           <img src="../assets/imgs/marcador.webp" />
         </div>
@@ -102,7 +106,7 @@
       </div>
     </div>
     <div class="info" id="info">
-      <p class="line" style="padding-top: 30px; padding-bottom: 20px">
+      <p class="line" id="lara" style="padding-top: 30px; padding-bottom: 20px">
         Lara / Barquisimeto
       </p>
       <p
@@ -120,7 +124,7 @@
     </div>
     <div class="bar"></div>
     <div class="info">
-      <p class="line" style="margin-bottom: 20px">Miranda / Caracas</p>
+      <p class="line" id="miranda" style="padding-top: 30px; margin-bottom: 20px">Miranda / Caracas</p>
       <p
         class="line"
         style="font-family: Montserrat, sans-serif; font-size: 20px"
@@ -136,7 +140,7 @@
     </div>
     <div class="bar"></div>
     <div class="info">
-      <p class="line" style="margin-bottom: 20px">Carabobo / Valencia</p>
+      <p class="line" id="carabobo" style="padding-top: 30px; margin-bottom: 20px">Carabobo / Valencia</p>
       <p
         class="line"
         style="font-family: Montserrat, sans-serif; font-size: 20px"
@@ -152,7 +156,7 @@
     </div>
     <div class="bar"></div>
     <div class="info">
-      <p class="line" style="margin-bottom: 20px">Zulia / Maracaibo</p>
+      <p class="line" id="zulia" style="padding-top: 30px; margin-bottom: 20px">Zulia / Maracaibo</p>
       <p
         class="line"
         style="font-family: Montserrat, sans-serif; font-size: 20px"
@@ -168,7 +172,7 @@
     </div>
     <div class="bar"></div>
     <div class="info">
-      <p class="line" style="margin-bottom: 20px">Monagas / Maturín</p>
+      <p class="line" id="monagas" style="padding-top: 30px; margin-bottom: 20px">Monagas / Maturín</p>
       <p
         class="line"
         style="font-family: Montserrat, sans-serif; font-size: 20px"
@@ -186,6 +190,9 @@
         mundoserviciosmon@gmail.com
       </p>
     </div>
+    <button class="scroll-top" id="scroll-to-top-btn">
+      <img src="../assets/imgs/angulo-hacia-arriba.webp" alt="Scroll to Top" />
+    </button>
     <div class="footer">
       <div class="form-container">
         <div class="wrapper">
