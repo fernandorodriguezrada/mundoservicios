@@ -12,3 +12,5 @@ app.get("/", function (req, res) {
 app.listen(5000, function () {
   console.log("Server is running on localhost:5000");
 });
+
+//node app.js
