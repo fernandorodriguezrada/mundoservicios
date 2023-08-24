@@ -4,4 +4,4 @@ This project is made for Mundo Servicios, a company that brings transportation s
 
 ## Screenshots
 
-![App Screenshot](https://lh3.googleusercontent.com/pw/AIL4fc-g2qseKra1Ekdc3JLaHwe3CswV_ow-0zNHGmJq7pTxG4BRgojVDkCQs_LbLcB-wVkDJ2q3ggC_3nxZwq8GdakLncXSceNxj4GP1EV8kcdAyU0enXnH=w2400)
+![App Screenshot](https://lh3.googleusercontent.com/pw/AIL4fc9cdfk_XoboyasEbtuQuMDR2y70s5eQp2J1RurspAHu-clkIIlPZoomnqDBK1ixOjwuBxyDuorzkXIMqvU1w7wVoUm46AdTzY917ADrNjUkmELrbjSn=w2400)
