@@ -11,10 +11,10 @@
       type="module"
       src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"
     ></script>
-    <script src="../dist/bundle.js"></script>
-    <!-- <script type="module" src="../src/firebase/firebaseauth.js"></script>
-    <script type="module" src="../src/firebase/firestore.js"></script>
-    <script type="module" src="../src/firebase/register.js"></script> -->
+    <script src="../../dist/bundle.js"></script>
+    <!-- <script type="module" src="../src/firebase/firebaseauth.js"></script> -->
+    <script type="module" src="../../src/firestore.js"></script>
+    <!-- <script type="module" src="../src/firebase/register.js"></script> -->
     <link rel="stylesheet" href="../register/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +40,7 @@
     <div class="wrapper">
       <div class="register-section">
         <div class="register-title">Registrarse</div>
-        <div class="register-container">
+        <form class="register-container" id="registerForm">
           <input class="name" placeholder="Nombre y apellidos" />
           <input class="mail" placeholder="E-mail" />
           <input class="password" type="password" placeholder="Contraseña" />
@@ -49,11 +49,11 @@
             type="password"
             placeholder="Confirmar contraseña"
           />
-          <button class="acceder">Acceder</button>
+          <button class="acceder" id="access">Acceder</button>
           <div class="already">
             <a href="../login/login.html">Ya tengo una cuenta</a>
           </div>
-        </div>
+        </form>
       </div>
     </div>
     <div class="footer">
